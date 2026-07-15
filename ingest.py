@@ -12,6 +12,8 @@ Chunking strategy (tuned to "A Taste of Travel" cookbook layout):
   * Dish title + country are extracted and prepended to each chunk so that
     cuisine / location / season queries retrieve well.
 """
+from __future__ import annotations
+
 import re
 import sys
 from pathlib import Path

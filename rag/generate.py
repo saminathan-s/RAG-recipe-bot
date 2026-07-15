@@ -1,4 +1,6 @@
 """Layer 2: grounded answer generation via llama3.2:3b (streaming)."""
+from __future__ import annotations
+
 from typing import Iterator
 
 import ollama

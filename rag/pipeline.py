@@ -1,4 +1,6 @@
 """Orchestrates the full flow: intent gate -> retrieve -> grounded generate."""
+from __future__ import annotations
+
 import re
 from typing import Iterator
 

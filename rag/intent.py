@@ -1,4 +1,6 @@
 """Layer 1 guardrail: intent classification via lightweight LLM (qwen2.5:1.5b)."""
+from __future__ import annotations
+
 import json
 import re
 

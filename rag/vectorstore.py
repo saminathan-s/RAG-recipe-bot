@@ -1,4 +1,6 @@
 """Chroma persistent vector store helpers."""
+from __future__ import annotations
+
 import chromadb
 
 import config

@@ -1,4 +1,6 @@
 """Text embeddings via Ollama (nomic-embed-text)."""
+from __future__ import annotations
+
 import ollama
 
 import config
