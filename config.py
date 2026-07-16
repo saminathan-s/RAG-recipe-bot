@@ -38,6 +38,7 @@ MAX_DISTANCE = 1.0
 # --- Generation ---
 TEMPERATURE = 0.1                  # low = less hallucination, more grounded
 MAX_TOKENS = 1024                  # hard cap on answer length (prevents runaway)
+NUM_CTX = 8192
 
 # --- Conversation memory ---
 HISTORY_TURNS = 6                  # recent messages passed to the model for follow-ups

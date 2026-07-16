@@ -45,7 +45,11 @@ def generate_stream(
     stream = _client.chat(
         model=config.GEN_MODEL,
         messages=messages,
-        options={"temperature": config.TEMPERATURE, "num_predict": config.MAX_TOKENS},
+        options={
+            "temperature": config.TEMPERATURE,
+            "num_predict": config.MAX_TOKENS,
+            "num_ctx": config.NUM_CTX,
+        },
         keep_alive=config.KEEP_ALIVE,
         stream=True,
     )
