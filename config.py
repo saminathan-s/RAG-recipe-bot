@@ -13,7 +13,7 @@ RECIPE_PDF = None  # e.g. DATA_DIR / "recipes.pdf"; None = ingest all PDFs in DA
 # --- Ollama models ---
 EMBED_MODEL = "nomic-embed-text"
 INTENT_MODEL = "qwen2.5:1.5b"      # lightweight guardrail / intent classifier
-GEN_MODEL = "llama3.2:3b"          # grounded answer generation
+GEN_MODEL = "llama3.2:latest"          # grounded answer generation
 OLLAMA_HOST = "http://localhost:11434"
 
 # Keep models resident in memory between requests so Ollama doesn't unload/reload
